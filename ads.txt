@@ -1,1 +1,1 @@
-https://newsgig.vercel.app/, pub-7449535127168918, DIRECT, f08c47fec0942fa0
+newsgig.vercel.app, pub-7449535127168918, DIRECT, f08c47fec0942fa0
