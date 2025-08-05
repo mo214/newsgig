@@ -13,24 +13,46 @@
      crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <h1>📰 Live News Feed</h1>
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tech.html">Tech News</a></li>
-        <li><a href="business.html">Business News</a></li>
-      </ul>
-    </nav>
+  <header class="main-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">Daily<span>News</span></a>
+        </div>
+        <div class="header-ad">
+          Header Ad (728x90)
+        </div>
+      </div>
+    </div>
   </header>
 
+  <nav class="main-nav">
+    <div class="container">
+      <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="tech.html">Tech</a></li>
+        <li><a href="business.html">Business</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Entertainment</a></li>
+        <li><a href="#">Sports</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <main id="news-container">
-    <!-- News cards will appear here -->
+  <main class="container">
+    <h2 class="section-title">Latest Articles</h2>
+    <div id="news-container">
+      <!-- News cards will be injected here by script.js -->
+    </div>
   </main>
 
-  <footer>
-    <p>Powered by NewsAPI.org</p>
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2024 DailyNews. All Rights Reserved.</p>
+        <p>Powered by NewsAPI.org</p>
+      </div>
+    </div>
   </footer>
 
   <script src="script.js"></script>
